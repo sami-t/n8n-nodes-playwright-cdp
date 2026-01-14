@@ -13,13 +13,13 @@ Perfect for:
 
 1. Go to **Settings > Community Nodes**
 2. Select **Install**
-3. Enter `n8n-nodes-playwright-cdp`
+3. Enter `@oneassasin/n8n-nodes-playwright-cdp`
 4. Agree to the risks and click **Install**
 
 ### Manual Installation
 
 ```bash
-npm install n8n-nodes-playwright-cdp
+npm install @oneassasin/n8n-nodes-playwright-cdp
 ```
 
 ## Usage
