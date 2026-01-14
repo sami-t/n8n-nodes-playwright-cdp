@@ -220,7 +220,6 @@ export function createHelpers(
 						input.dispatchEvent(new Event('input', { bubbles: true }));
 					}
 				`;
-				// eslint-disable-next-line @typescript-eslint/no-implied-eval
 				const fn = new Function('return ' + uploadScript)();
 				await page.evaluate(fn, { sel: selector, filesInfo: filesData });
 			} else if (clickSelector) {

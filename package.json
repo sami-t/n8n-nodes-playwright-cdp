@@ -1,5 +1,5 @@
 {
-	"name": "@oneassasin/n8n-nodes-playwright-cdp",
+	"name": "@bednij.bohdan/n8n-nodes-playwright-cdp",
 	"version": "1.0.0",
 	"description": "n8n node to execute Playwright code via CDP connection to running browsers",
 	"license": "MIT",

@@ -73,7 +73,7 @@ export class PlaywrightCdp implements INodeType {
 				default: DEFAULT_CODE,
 				required: true,
 				noDataExpression: true,
-				description: 'Code to execute. Available: $playwright, $browser, $context, $helpers, $input, $json.',
+				description: 'Code to execute. Available: $playwright, $browser, $context, $helpers, $input, $JSON.',
 			},
 			{
 				displayName: 'Emulate Human Behavior',

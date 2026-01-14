@@ -191,6 +191,7 @@ export async function humanType(
 	selector: string,
 	text: string,
 	config: HumanEmulationConfig,
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	options?: { delay?: number },
 ): Promise<void> {
 	const typingDelay = config.typingDelay || DEFAULTS.typingDelay;
